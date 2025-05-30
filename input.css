@@ -1,1 +1,33 @@
 @import "tailwindcss";
+.imagebck{
+    background-image: url("./images/vecteezy_white-background-with-orange-geometric_11171111-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbg{
+    background-color: rgb(100, 100, 100, 0.9);
+}
+.logo{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+    font-weight: 900;
+    text-shadow: black;
+    font-style:italic;
+}
+.image1{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    border: solid black 2px;
+}
+.heading{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:black;
+    font-weight: 900;
+    text-shadow: black;
+    font-style:italic;
+}
+.paragraph{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+}

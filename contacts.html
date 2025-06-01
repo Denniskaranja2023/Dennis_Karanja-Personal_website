@@ -6,7 +6,61 @@
     <title>Contacts</title>
     <link rel="stylesheet" href="./output.css">
 </head>
-<body>
-    
+<body class="imagebck h-[130rem]">
+    <navbar class="text-white flex justify-between items-center h-[4.375rem] border-gray-950 border-solid border-[2px] rounded-[0.625rem] navbg text-[1.5625rem]">
+    <div> <h1 class="text-[3.125rem] logo "><a href="./index.html"><span class="text-amber-300">Dennis</span><span class="text-white">Karanja</span></a></h1></div>
+    <div>
+        <button class="border-2 border-solid border-black bg-amber-300 text-black w-[9.375rem] ml-[4.375rem] rounded-[1.25rem]"><a href="./index.html">Home</a></button>
+        <button class="border-2 border-solid border-black bg-amber-300 text-black w-[9.375rem] ml-[4.375rem] rounded-[1.25rem]"><a href="./bio.html">Bio</a></button>
+        <button class="border-2 border-solid border-black bg-amber-300 text-black w-[9.375rem] ml-[4.375rem] rounded-[1.25rem]"><a href="./motivations.html">Motivations</a></button>
+        <button class="border-2 border-solid border-black bg-amber-300 text-black w-[9.375rem] ml-[4.375rem] rounded-[1.25rem]"><a href="/cv.html">CV</a></button>
+        <button class="border-2 border-solid border-black bg-amber-300 text-black w-[9.375rem] ml-[4.375rem] rounded-[1.25rem]"><a href="#/contacts.html">Contacts</a></button>
+    </div>
+    </navbar>
+    <div class="flex flex-col items-center">
+        <h1 class="heading text-[2.5rem] text-center mb-[2%]">Contact Me</h1>
+        <img class="image1" src="./images/DK-JACKET.jpg">
+        <p class="text-center heading text-[1.5rem]">Thank you for visiting my website. For any enquiries, suggestions or consultations,feel free to reach out through the following:</p>
+    </div>    
+    <div class="flex justify-between h-[5rem] bg-amber-200 border-2 border-solid border-black text-[1.25rem] paragraph-bio">
+        <h1><img class=" float-left image-icon mt-[2%]" src="./images/email.png">Email Adress:</h1>
+        <P>denniswanyeki2021@gmail.com</P>
+        <p>deninokaranja@gmail.com</p>
+    </div>
+    <div class="flex justify-between h-[5rem] bg-gray-100 text-[1.25rem] paragraph-bio">
+        <p><img class=" float-left image-icon" src="./images/location.png" alt="physical address"> Physical Address: <strong>Ruaka, Kiambu County</strong></p>
+        <p><img class=" float-left image-icon" src="./images/telephone.png">Telephone number 1: <strong>+254711606734</strong></p>
+        <p><img class=" float-left image-icon" src="./images/telephone.png">Telephone number 2: <strong>+254789248928</strong></p>
+    </div>
+    <div>
+        <div class="flex justify-between border-2 border-solid border-black h-[5rem] bg-amber-200 text-[1.25rem] paragraph-bio">
+            <p>Socials:</p>
+            <p><a href="https://www.facebook.com/dennis.karanja.129"><img src="./images/facebook (1).png" class="float-left image-icon" title="Facebook">Dennis Karanja</a></p>
+            <p><a href="https://www.instagram.com/denino_karanja/"><img src="./images/instagram.png" class="float-left image-icon" title="Instagram">denino_karanja</a></p>
+            <p><a href="https://x.com/DennisWanyeki"><img src="./images/twitter.png" class="float-left image-icon" title="Twitter/X">@DennisWanyeki</a></p>
+        </div>
+        <div class="flex justify-between border-2 border-solid border-black h-[5rem] bg-gray-100 text-[1.25rem] paragraph-bio">
+            <p>Professional platforms:</p>
+            <p><a href="https://github.com/Denniskaranja2023"><img src="./images/github.png" class="float-left image-icon" title="Github">Github: Denniskaranja2023</a></p>
+            <p><a href="https://www.linkedin.com/in/denniswanyeki/"><img src="./images/linkedin.png" class="float-left image-icon" title="Linkedin">Linkedin Dennis karanja</a></p>
+        </div>
+        <div class="flex flex-col items-center border border-solid border-black h-[20rem] w-[50%] ml-[25%] bg-amber-200 rounded-b-[4rem] text-[1.25rem] paragraph-bio">
+            <h1 class="text-center heading text-[1.5rem]">Would you want us to get in touch? Kindly Fill this form?</h1>
+            <form>
+               <div>
+                  <label for="name">Name:</label>
+                  <input class="border border-solid border-black bg-gray-100 rounded-[1rem] h-[3rem]" type="text" id="name" placeholder="Billy Graham">
+               </div><br>
+               <div>
+                  <label for="phone">Phone:</label>
+                  <input class="border border-solid border-black bg-gray-100 rounded-[1rem] h-[3rem]" type="number" id="phone" placeholder="0723456789">
+               </div><br>
+               <div>
+                  <label for="message">Message:</label>
+                  <input class="border bg-gray-100 border-solid border-black rounded-[1rem] h-[3rem] W-[10rem]"type="text" id="message" placeholder="Your message">
+               </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>

@@ -15,8 +15,8 @@
     font-style:italic;
 }
 .image1{
-    height: 500px;
-    width: 500px;
+    height: 25rem;
+    width:  25rem;
     border-radius: 50%;
     border: solid black 2px;
 }
@@ -34,4 +34,13 @@
 .paragraph-bio{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 300;
+    a{
+        color:blue;
+        text-decoration: underline;
+    }
+}
+.bg-volunteer{
+    background-image: url("https://imageio.forbes.com/specials-images/imageserve/65ad49201b8a4682439df59f/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
